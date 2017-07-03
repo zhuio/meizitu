@@ -16,3 +16,5 @@ class MeizituItem(scrapy.Item):
     # image = scrapy.Field()
     image_urls = scrapy.Field()
     images = scrapy.Field()
+    image_paths = scrapy.Field()
+
